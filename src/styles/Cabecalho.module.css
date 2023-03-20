@@ -1,0 +1,55 @@
+.classNav {
+    /* border: solid 2px red; */
+    /* background-color: rgba(161, 253, 222, 0.904); */
+    background-color: #90775a;
+    opacity: .8;
+
+    height: 80px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.logotipo{
+    margin-top: .8vh;
+    background-image: url('../../public/imagens/logotipo.png');
+    /* background-color: #fff; */
+    background-size: 70px;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    /* background-size: 100%; */
+    /* border: 2px solid red; */
+}
+
+#flexdiv{
+    display: flex;
+    
+}
+
+.links {
+    margin-right: 10px;
+    margin-left: 20px;
+    
+    text-decoration: none;   
+    list-style: none; 
+
+    font-size: 2em;
+    font-family: 'Indie Flower', cursive;
+  
+    
+    color:#fff;
+  
+}
+
+.links:hover{
+    
+    /* background-color: red; */
+    border-bottom: 2px solid #fff
+
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family= Indie +Flower & display=swap');

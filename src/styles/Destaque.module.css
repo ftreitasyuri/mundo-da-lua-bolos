@@ -1,0 +1,110 @@
+.destaque {
+    /* border: solid 2px green; */
+    /* background-color: rgba(161, 253, 222, 0.904); */
+
+    height: 300px;
+
+    display: grid;
+
+    grid-template-areas:
+    'parte1 parte2 parte3';
+
+    gap: 5px;
+    
+ 
+}
+
+.parte1{
+    grid-area: 'parte1';
+    /* min-width: 33%; */
+    width: 22vw;
+    /* border: solid 3px red; */
+
+    background-image: url('../../public/imagensNatal/natal_1.jpg');
+    background-size: 100%;
+
+    border-radius: 20px;
+    
+    
+}
+
+.parte1:hover{
+    opacity: 0.8;
+    background-image: url('../../public/imagensNatal/bombomTtone.png');
+    transition: 1.5s;
+
+    
+}
+
+.parte1 h2:hover{
+
+    text-decoration: none;
+    color: orange;
+    opacity: .9;
+    transition: 1.2s;
+    
+}
+.parte2{
+    grid-area: 'parte2';
+    /* min-width: 33%; */
+    width: 23vw;
+    /* border: solid 3px red; */
+    background-image: url('../../public/imagensNatal/vaicomemoraroniversim.jpg');
+    background-size: 100%;
+    
+    border-radius: 20px;
+
+}
+
+
+.parte2:hover{
+    opacity: 0.8;
+    background-image: url('../../public/imagens/Bolo2.jpg');
+    transition: 1.5s;
+}
+
+.parte2 h2:hover{
+    color: orange;
+    opacity: .9;
+    transition: 1.2s;
+}
+
+.parte3{
+    grid-area: 'parte3';
+    /* min-width: 33%; */
+    width: 22vw;
+    /* border: solid 3px red; */
+    background-image: url('../../public/imagensNatal/brigadeiros.jpg');
+    background-size: 100%;
+
+    border-radius: 20px;
+}
+
+
+.parte3:hover{
+    opacity: 0.8;
+    background-image: url('../../public/imagensNatal/caixaBrigadeiros.png');
+    transition: 1.5s;
+
+}
+
+.parte3 h2:hover{
+    color: orange;
+    opacity: .9;
+    transition: 1.2s;
+}
+
+.deco{
+    font-size: 2.2em;
+    
+    text-decoration: none;
+    opacity: .9;
+
+}
+
+.textoDeco{
+    color: #fff;
+    z-index: 1;
+    margin-top: 9vh;
+
+}

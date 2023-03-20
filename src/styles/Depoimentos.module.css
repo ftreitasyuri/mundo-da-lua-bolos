@@ -1,0 +1,23 @@
+.container{
+    /* background-color: aquamarine; */
+    background-color: #F6F0E9;
+    opacity: .8;
+    min-height: 300px;
+}
+
+.titulo{
+    font-family: 'Indie Flower', cursive;
+    color: #2963afef;
+    /* border: 1px solid red; */
+    padding: 10px;
+    font-size: 2em;
+}
+
+.sessao {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family= Indie +Flower & display=swap');

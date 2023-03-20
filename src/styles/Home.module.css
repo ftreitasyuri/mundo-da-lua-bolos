@@ -1,0 +1,17 @@
+.app {
+  text-align: center;
+}
+
+#containerPrincipal{
+  max-width: 70vw;
+  /* max-height: 500px; */
+  margin: 0 auto;
+
+  display: grid;
+
+}
+
+/* classe para fazer separação entre components */
+.separacao{
+  height: 7vh;
+}

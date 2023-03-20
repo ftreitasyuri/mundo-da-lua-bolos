@@ -1,0 +1,53 @@
+.container{
+    background-color: aquamarine;
+
+    /* min-height: 300px; */
+}
+
+.sessao{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img1{
+    background-image: url('../../public//imagensNatal/chocottoneTrufadoMedio.png');
+    width: 350px;
+    height: 350px;
+
+    /* border: 1px solid red; */
+}
+.img2{
+    background-image: url('../../public//imagensNatal/bombomBrownie.png');
+    width: 350px;
+    height: 350px;
+
+    /* border: 1px solid red; */
+}
+.img3{
+    background-image: url('../../public//imagensNatal/bombomBrownie2.png');
+    width: 350px;
+    height: 350px;
+
+    /* border: 1px solid red; */
+}
+.img4{
+    background-image: url('../../public//imagensNatal/miniChocoTrufadoBrigadeiros.png');
+    width: 350px;
+    height: 350px;
+
+    /* border: 1px solid red; */
+}
+.img5{
+    background-image: url('../../public//imagensNatal/bombomTtone.png');
+    width: 350px;
+    height: 350px;
+
+    /* border: 1px solid red; */
+}
+.img6{
+    background-image: url('../../public//imagensNatal/chocottoneTrufadoPequeno.png');
+    width: 350px;
+    height: 350px;
+
+    /* border: 1px solid red; */
+}
