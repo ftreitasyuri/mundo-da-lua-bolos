@@ -1,0 +1,11 @@
+{
+  "/_app": "pages/_app.js",
+  "/api/hello": "pages/api/hello.js",
+  "/_document": "pages/_document.js",
+  "/contatos": "pages/contatos.html",
+  "/": "pages/index.html",
+  "/nataLunar": "pages/nataLunar.html",
+  "/_error": "pages/_error.js",
+  "/quemSomos": "pages/quemSomos.html",
+  "/404": "pages/404.html"
+}
