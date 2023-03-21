@@ -109,7 +109,7 @@
 
 }
 
-@media (max-width: 550px){
+@media (max-width: 750px){
     .destaque {
     /* border: solid 2px green; */
     /* background-color: rgba(161, 253, 222, 0.904); */
@@ -144,3 +144,5 @@
     
 
 }
+
+/* @media (max-width: 900px){} */
