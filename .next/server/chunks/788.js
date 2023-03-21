@@ -14,8 +14,7 @@ module.exports = {
 	"Inputar": "Corpo_Inputar__qJKHw",
 	"descricao": "Corpo_descricao__ze6Xe",
 	"botaoEnviar": "Corpo_botaoEnviar__eTv30",
-	"lateralDiretia": "Corpo_lateralDiretia__0stNw",
-	"lateralDireita": "Corpo_lateralDireita__EvWMq"
+	"lateralDiretia": "Corpo_lateralDiretia__0stNw"
 };
 
 

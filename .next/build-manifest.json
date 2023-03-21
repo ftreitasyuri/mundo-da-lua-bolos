@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/NIP4fJgONKQbTtnogRHiU/_buildManifest.js",
-    "static/NIP4fJgONKQbTtnogRHiU/_ssgManifest.js"
+    "static/K2ofClc59tqFkN4ONU6zz/_buildManifest.js",
+    "static/K2ofClc59tqFkN4ONU6zz/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -15,8 +15,8 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/664-8af8765c6fed5950.js",
-      "static/css/15336064fd226661.css",
-      "static/chunks/pages/index-40dfc884cd284799.js"
+      "static/css/21d7673c861ba6a7.css",
+      "static/chunks/pages/index-05ee6a3d00fa4ff3.js"
     ],
     "/_app": [
       "static/chunks/webpack-8fa1640cc84ba8fe.js",
@@ -36,8 +36,8 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/664-8af8765c6fed5950.js",
-      "static/css/354094dece7b4720.css",
-      "static/chunks/pages/contatos-7bb05e2d9eaa50e5.js"
+      "static/css/bfc886fe93318b75.css",
+      "static/chunks/pages/contatos-cbf30fc2b3e9e29f.js"
     ],
     "/nataLunar": [
       "static/chunks/webpack-8fa1640cc84ba8fe.js",
