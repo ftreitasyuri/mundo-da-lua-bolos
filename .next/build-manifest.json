@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/OUJZDLVSkelwmfNf9W2CW/_buildManifest.js",
-    "static/OUJZDLVSkelwmfNf9W2CW/_ssgManifest.js"
+    "static/JvTu7J_-jdjiFtbfj9WEx/_buildManifest.js",
+    "static/JvTu7J_-jdjiFtbfj9WEx/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -15,7 +15,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/664-8af8765c6fed5950.js",
-      "static/css/af9ecb12f7514d8f.css",
+      "static/css/c4a6a59354271db5.css",
       "static/chunks/pages/index-e0c340754a3e84cf.js"
     ],
     "/_app": [
@@ -36,7 +36,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/664-8af8765c6fed5950.js",
-      "static/css/a5e111f995fb95b5.css",
+      "static/css/a52d02ff6b52963e.css",
       "static/chunks/pages/contatos-33e2abb05e9f4353.js"
     ],
     "/nataLunar": [
