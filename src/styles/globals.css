@@ -1,19 +1,28 @@
 body{
-  background-image: url('../../public/imagens/bkimage.jpg');
-  background-attachment: fixed;
+  /* background-image: url('../../public/imagens/bkimage.jpg'); */
+  /* background-attachment: fixed; */
   padding: 10px;
   margin: 0 auto;
 
   /* min-width: 00px; */
 
   max-width: 1300px;
+  /* max-width: 90vw; */
+
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  /* overflow-y: hidden; Hide horizontal scrollbar */
+
+  
+  
   
 }
 
 @media (max-width: 700px){
   body{
     margin: 0;
-    padding: 0;
+    padding:0;
     
+    /* overflow-y: none;
+    width: 100%; */
   }
 }

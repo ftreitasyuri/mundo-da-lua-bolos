@@ -4,8 +4,8 @@
   "/api/hello": "pages/api/hello.js",
   "/contatos": "pages/contatos.html",
   "/": "pages/index.html",
-  "/_error": "pages/_error.js",
   "/nataLunar": "pages/nataLunar.html",
+  "/_error": "pages/_error.js",
   "/quemSomos": "pages/quemSomos.html",
   "/404": "pages/404.html"
 }

@@ -53,3 +53,13 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family= Indie +Flower & display=swap');
+
+@media (max-width: 890px){
+    .links{
+        font-size: 1em;
+    }
+
+    .classNav {
+        width: 100vw;
+    }
+}
