@@ -3,5 +3,7 @@ body{
   background-attachment: fixed;
   padding: 10px;
   margin: 0 auto;
+
+  min-width: 600px;
   
 }

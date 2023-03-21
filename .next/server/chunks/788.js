@@ -13,7 +13,8 @@ module.exports = {
 	"latealDireita": "Corpo_latealDireita__Dnaje",
 	"Inputar": "Corpo_Inputar__qJKHw",
 	"descricao": "Corpo_descricao__ze6Xe",
-	"botaoEnviar": "Corpo_botaoEnviar__eTv30"
+	"botaoEnviar": "Corpo_botaoEnviar__eTv30",
+	"lateralDireita": "Corpo_lateralDireita__EvWMq"
 };
 
 
