@@ -3,6 +3,8 @@
     background-color: #F6F0E9;
     opacity: .8;
     min-height: 300px;
+
+    
 }
 
 .titulo{
@@ -21,3 +23,20 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family= Indie +Flower & display=swap');
+
+
+@media (max-width: 550px){
+    .container{
+        margin-top: 90vh ;
+    }
+    .sessao{
+        display: block;
+    }
+    .titulo{
+        font-size: .3em;
+    }
+
+    .titullo p{
+        font-size: .3em;
+    }
+}

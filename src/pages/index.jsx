@@ -27,10 +27,12 @@ export default function Home() {
         <Destaque />
         </div>
         <div className={styles.separacao}></div>
-
+        
+        <div className={styles.separacao}></div>
         <div>
           <Depoimentos/>
         </div>
+        <div className={styles.separacao}></div>
 
         <div >
         <Rodape />

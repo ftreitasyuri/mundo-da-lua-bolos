@@ -27,7 +27,8 @@ module.exports = {
 module.exports = {
 	"container": "Depoimentos_container__c6Ihb",
 	"titulo": "Depoimentos_titulo__nzwRN",
-	"sessao": "Depoimentos_sessao__rkkma"
+	"sessao": "Depoimentos_sessao__rkkma",
+	"titullo": "Depoimentos_titullo__9jDNn"
 };
 
 
@@ -190,10 +191,10 @@ function Depoimentos() {
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                children: "Meu depoimentos"
+                                children: "@insta"
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                children: "nanana"
+                                children: "Meu depoimento"
                             })
                         ]
                     }),
@@ -230,20 +231,20 @@ function Depoimentos() {
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                children: "Meu depoimentos"
+                                children: "@insta"
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                children: "nanana"
+                                children: "Meu depoimento"
                             })
                         ]
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                children: "Meu depoimentos"
+                                children: "@insta"
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                children: "nanana"
+                                children: "Meu depoimento"
                             })
                         ]
                     })

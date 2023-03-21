@@ -104,7 +104,43 @@
 
 .textoDeco{
     color: #fff;
-    z-index: 1;
+    /* z-index: 1; */
     margin-top: 9vh;
+
+}
+
+@media (max-width: 550px){
+    .destaque {
+    /* border: solid 2px green; */
+    /* background-color: rgba(161, 253, 222, 0.904); */
+  
+    /* grid-template-areas:
+    'parte1',
+    'parte2',
+    'parte3';
+     */
+
+    /* gap: none; */
+    display: block;
+    gap: 1;
+    
+    }
+    .deco{
+        font-size: 1em;
+        
+        text-decoration: none;
+        opacity: .9;
+    
+        margin-bottom: 50px;
+    }
+
+    .parte1, .parte2, .parte3{
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 40vh;
+
+
+    }
+    
 
 }
