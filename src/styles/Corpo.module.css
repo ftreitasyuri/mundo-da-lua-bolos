@@ -131,30 +131,36 @@
 
 /* AREA MEDIA */
 
-@media (max-width: 2000px){
+/* @media (max-width: 2000px){
     
     
     #destaquePag{
         font-size: 2.5em;
-        /* color: orange; */
+        
     }
     #lateralDireita{
         max-width: 39vw;
     }
 
 
-}
+} */
 
 @media (min-width: 1304px){
     
+    #corpoForms{
+        grid-template-areas: 
+    'lateralEsquerda lateralDireita ';
+    }
+
+    #lateralDiretia:hover{
+        background-color: #FFF;
+    }
     
     #destaquePag{
         font-size: 2.5em;
         color: orange;
     }
-    #lateralDireita{
-        max-width: 5vw;
-    }
+    
 
 
 }
