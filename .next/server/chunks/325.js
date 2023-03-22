@@ -1,5 +1,5 @@
-exports.id = 551;
-exports.ids = [551];
+exports.id = 325;
+exports.ids = [325];
 exports.modules = {
 
 /***/ 6264:
@@ -11,19 +11,6 @@ module.exports = {
 	"logotipo": "Cabecalho_logotipo__Uvkau",
 	"flexdiv": "Cabecalho_flexdiv__TsNUD",
 	"links": "Cabecalho_links__mU8bF"
-};
-
-
-/***/ }),
-
-/***/ 8710:
-/***/ ((module) => {
-
-// Exports
-module.exports = {
-	"app": "Home_app__OR_3m",
-	"containerPrincipal": "Home_containerPrincipal__hStAY",
-	"separacao": "Home_separacao__1OpwV"
 };
 
 

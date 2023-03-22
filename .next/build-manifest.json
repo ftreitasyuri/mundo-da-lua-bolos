@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/Dvrfj6ZRXQh0eatACplsy/_buildManifest.js",
-    "static/Dvrfj6ZRXQh0eatACplsy/_ssgManifest.js"
+    "static/_ST3M-5Sua4IKiU_CIiDd/_buildManifest.js",
+    "static/_ST3M-5Sua4IKiU_CIiDd/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -16,7 +16,7 @@
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/664-8af8765c6fed5950.js",
       "static/css/4af2c090dbe21127.css",
-      "static/chunks/pages/index-e0c340754a3e84cf.js"
+      "static/chunks/pages/index-dbcb9977d3183b26.js"
     ],
     "/_app": [
       "static/chunks/webpack-8fa1640cc84ba8fe.js",
@@ -31,6 +31,14 @@
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/pages/_error-54de1933a164a1ff.js"
     ],
+    "/bolos": [
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-0ecb9ccfcb6c9b24.js",
+      "static/chunks/664-8af8765c6fed5950.js",
+      "static/css/fffa48aafc12a54b.css",
+      "static/chunks/pages/bolos-77cf7b7d25408fea.js"
+    ],
     "/contatos": [
       "static/chunks/webpack-8fa1640cc84ba8fe.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
@@ -39,13 +47,21 @@
       "static/css/ed7a546a06e3377f.css",
       "static/chunks/pages/contatos-33e2abb05e9f4353.js"
     ],
+    "/lembra": [
+      "static/chunks/webpack-8fa1640cc84ba8fe.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-0ecb9ccfcb6c9b24.js",
+      "static/chunks/664-8af8765c6fed5950.js",
+      "static/css/d41b1edc6d811a4a.css",
+      "static/chunks/pages/lembra-ed1a637353529585.js"
+    ],
     "/nataLunar": [
       "static/chunks/webpack-8fa1640cc84ba8fe.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/664-8af8765c6fed5950.js",
-      "static/css/9521daaecc71ab07.css",
-      "static/chunks/pages/nataLunar-41cf74ce42a982a5.js"
+      "static/css/61ef39880bff54c0.css",
+      "static/chunks/pages/nataLunar-6fda4c3cb735aead.js"
     ],
     "/quemSomos": [
       "static/chunks/webpack-8fa1640cc84ba8fe.js",

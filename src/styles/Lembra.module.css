@@ -1,0 +1,114 @@
+
+  #containerPrincipal{
+    max-width: 70vw;
+    margin: 0 auto;
+    /* max-height: 500px; */
+  
+    display: grid;
+
+  
+  
+  }
+
+  .app {
+    text-align: center;
+    
+  }
+  
+
+
+
+
+  .container{
+    /* background-color: aquamarine; */
+    width: 70vw;
+
+    margin: 0 auto;
+    text-align: center;
+  
+    /* padding: 10px; */
+
+    /* min-height: 300px; */
+}
+
+.sessao{
+    display: grid;
+
+    justify-content: center;
+    grid-template-areas:
+    'img1 img2 img3'
+    'img4 img5 img6';
+
+    gap: 1em;
+
+    margin-top: 10px;
+}
+
+.img1{
+    grid-area: 'img1';
+    background-image: url('../../public//imagens/lembra1.jpg');
+   
+
+    /* border: 1px solid red; */
+}
+.img2{
+    grid-area: 'img2';
+
+    background-image: url('../../public//imagens/lembra2.jpg');
+ 
+
+    /* border: 1px solid red; */
+}
+.img3{
+    grid-area: 'img3';
+
+    background-image: url('../../public/imagens/lembra3.jpg');
+  
+    /* border: 1px solid red; */
+}
+.img4{
+    grid-area: 'img4';
+
+    background-image: url('../../public/imagens/lembra4.jpg');
+
+    /* border: 1px solid red; */
+}
+.img5{
+    grid-area: 'img5';
+    background-image: url('../../public/imagens/lembra5.jpg');
+
+
+
+    /* border: 1px solid red; */
+}
+.img6{
+    grid-area: 'img6';
+
+    background-image: url('../../public/imagens/lembra7.jpg');
+
+   
+    /* border: 1px solid red; */
+}
+
+.img1, .img2, .img3, .img4,.img5 ,.img6 {
+    border-radius: 10px;
+    width: 22vw;
+    height: 50vh;
+
+}
+
+/* .img1:hover, .img2:hover, .img3:hover, .img4:hover,.img5:hover ,.img6:hover {
+    border-radius: 10px;
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    position: relative;
+    transition: 1s;
+    z-index: 2;
+
+} */
+
+#separacao{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
