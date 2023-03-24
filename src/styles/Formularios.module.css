@@ -3,12 +3,14 @@
     max-width: 48%;
     padding: 1.5%;
 
+    margin: 0 auto;
+    text-align: center;
     background-color: aquamarine;
     background-image: url('../../public/imagensNatal/natal_1C.jpg');
 }
 
 #nome, #email, #telefone{
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-bottom: 3%;
 
     border-style: none;
@@ -36,7 +38,7 @@
     background-color: rgba(76, 156, 231, 0.943);
 
 
-    font-size: 1.1em;
+    font-size: 1.4em;
     margin-top: 2%;
     /* margin-left: 3vw; */
 
@@ -47,4 +49,12 @@
     justify-content: center;
     border: none;
     
+}
+
+
+
+@media (max-width: 750px){
+    #form{
+      max-width: 100%;
+    }
 }

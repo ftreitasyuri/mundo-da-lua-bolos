@@ -1,5 +1,5 @@
-exports.id = 327;
-exports.ids = [327];
+exports.id = 940;
+exports.ids = [940];
 exports.modules = {
 
 /***/ 875:
@@ -45,19 +45,6 @@ module.exports = {
 	"telefone": "Formularios_telefone__CQPNE",
 	"descricao": "Formularios_descricao___A_Nv",
 	"botaoEnviar": "Formularios_botaoEnviar__jbYUx"
-};
-
-
-/***/ }),
-
-/***/ 8710:
-/***/ ((module) => {
-
-// Exports
-module.exports = {
-	"app": "Home_app__OR_3m",
-	"containerPrincipal": "Home_containerPrincipal__hStAY",
-	"separacao": "Home_separacao__1OpwV"
 };
 
 
@@ -121,7 +108,7 @@ function Corpo() {
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2___default().destaquePag),
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                        children: "Seja bem vindo(a) ao mundo da lua bolos"
+                        children: "Aproveite j\xe1 as promo\xe7\xf5es de pascoa"
                     })
                 })
             }),

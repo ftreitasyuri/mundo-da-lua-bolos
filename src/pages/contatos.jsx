@@ -3,7 +3,7 @@ import Corpo from '../components/Corpo';
 import Depoimentos from '../components/Depoimentos';
 import Formulario from '../components/Formulario';
 import Rodape from '../components/Rodape';
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Contatos.module.css'
 
 
 export default function Contatos(){

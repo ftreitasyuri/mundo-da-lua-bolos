@@ -4,7 +4,69 @@
     opacity: .8;
 
 
-    height: 150px;
-
+    /* height: 150px; */
+    min-height: 20vh;
  
+}
+
+#sessao{
+    display: grid;
+
+    grid-template-areas:
+    'ladoEsquerdo meio ladoDireito'
+    ;
+
+    gap: 1px;
+
+    
+}
+
+#ladoEsquerdo, #meio, #ladoDireito{
+    /* border: 1px solid red; */
+    
+    min-height: 20vh;
+    
+    min-width: 22vw;
+    padding: 1%;
+}
+
+#ladoEsquerdo{
+    grid-area: 'ladoEsquerdo';
+    text-align: left;
+    
+}
+
+#meio{
+    grid-area: 'meio';
+    
+}   
+
+#contMeio{
+    /* border: 2px solid blue; */
+    margin-top: 19%;
+    
+}
+
+#ladoDiretio{
+    grid-area: 'ladoDireito';
+    
+    
+    align-content: space-around;
+}
+
+
+#sessaoLadoDireito{
+    display: flex;
+    
+    justify-content: space-evenly;
+    margin-top: 17%;
+    
+    
+       
+    
+
+}
+
+.styleImagens{
+    
 }

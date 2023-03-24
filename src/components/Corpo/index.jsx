@@ -54,7 +54,7 @@ export default function Corpo() {
 
             <div id={styles.latealEsquerda}>
                 <div id={styles.destaquePag}>
-                    <p>Seja bem vindo(a) ao mundo da lua bolos</p>
+                    <p>Aproveite já as promoções de pascoa</p>
                 </div>
             </div>
 
