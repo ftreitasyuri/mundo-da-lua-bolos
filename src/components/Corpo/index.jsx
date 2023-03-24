@@ -1,6 +1,7 @@
 import styles from '../../styles/Corpo.module.css'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
+
 
 export default function Corpo() {
 
@@ -47,15 +48,35 @@ export default function Corpo() {
         document.getElementsByName('descricao').value=''
         alert('Formulário enviado')
 
-    }
+    }   
+
+   
+        
     
+        const [count, setCount] = useState(0)
+
+        useEffect(() =>{
+            // document.title = 'Você conseguiu' 
+            document.getElementsByName('lateralEsquerda')
+            let url = 'https://drive.google.com/file/d/1s4wE-ZUtXc8zUSpAQflW5wDufXYPx9QM/view'
+            window.open(url, '_blank')
+
+            
+        })
+    
+    
+
+
+     
 
     return (
         <div id={styles.corpoForms}>
 
-            <div id={styles.latealEsquerda}>
-                <div id={styles.destaquePag}>
+            <div id={styles.latealEsquerda} >
+                <div id={styles.destaquePag} name={'lateralEsquerda'} onClick={() => setCount()}>
                     <p><Link className={styles.linkCorpo} href={'https://drive.google.com/file/d/1s4wE-ZUtXc8zUSpAQflW5wDufXYPx9QM/view'}>Aproveite já as promoções de pascoa</Link></p>
+                    {/* <p >Você clicou {count} vezes</p> */}
+                    {/* <button onClick={() => setCount(count + 1)} >Click aqui</button> */}
                 </div>
             </div>
 

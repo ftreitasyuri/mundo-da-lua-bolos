@@ -104,6 +104,13 @@ function Corpo() {
         document.getElementsByName("descricao").value = "";
         alert("Formul\xe1rio enviado");
     }
+    const [count, setCount] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(0);
+    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
+        // document.title = 'Você conseguiu' 
+        document.getElementsByName("lateralEsquerda");
+        let url = "https://drive.google.com/file/d/1s4wE-ZUtXc8zUSpAQflW5wDufXYPx9QM/view";
+        window.open(url, "_blank");
+    });
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
         id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().corpoForms),
         children: [
@@ -111,6 +118,8 @@ function Corpo() {
                 id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().latealEsquerda),
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().destaquePag),
+                    name: "lateralEsquerda",
+                    onClick: ()=>setCount(),
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                             className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().linkCorpo),
