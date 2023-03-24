@@ -10,7 +10,7 @@ export default function Natal() {
         <div className={styles.app}>
             <div id={styles.containerPrincipal}>
                 <Cabecalho />
-                <h1>Página Natal Lunar</h1>
+                <h1>Página Natal LUNAR</h1>
                 <NatalLunar />
                 <Rodape />
             </div>

@@ -112,3 +112,26 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+@media (max-width: 750px){
+    #containerPrincipal{
+      max-width: 100%;
+      margin: 0 auto;
+      /* max-height: 500px; */
+    
+      display: grid;
+    
+    }
+  }
+
+  @media(max-width: 750px){
+    .img1, .img2, .img3, .img4,.img5 ,.img6 {
+        border-radius: 10px;
+        width: 22vw;
+        height: 10vh;
+
+        background-size: 100%;
+    
+    }
+    
+}
