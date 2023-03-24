@@ -11,6 +11,7 @@ module.exports = {
 	"latealEsquerda": "Corpo_latealEsquerda__VS60C",
 	"destaquePag": "Corpo_destaquePag__iy78F",
 	"latealDireita": "Corpo_latealDireita__Dnaje",
+	"linkCorpo": "Corpo_linkCorpo__9Ey6I",
 	"Inputar": "Corpo_Inputar__qJKHw",
 	"descricao": "Corpo_descricao__ze6Xe",
 	"botaoEnviar": "Corpo_botaoEnviar__eTv30",
@@ -59,10 +60,13 @@ module.exports = {
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(875);
-/* harmony import */ var _styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(875);
+/* harmony import */ var _styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1664);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 
@@ -101,19 +105,23 @@ function Corpo() {
         alert("Formul\xe1rio enviado");
     }
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2___default().corpoForms),
+        id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().corpoForms),
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2___default().latealEsquerda),
+                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().latealEsquerda),
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2___default().destaquePag),
+                    id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().destaquePag),
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                        children: "Aproveite j\xe1 as promo\xe7\xf5es de pascoa"
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
+                            className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().linkCorpo),
+                            href: "https://drive.google.com/file/d/1s4wE-ZUtXc8zUSpAQflW5wDufXYPx9QM/view",
+                            children: "Aproveite j\xe1 as promo\xe7\xf5es de pascoa"
+                        })
                     })
                 })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2___default().latealDireita),
+                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().latealDireita),
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
                     children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
                         action: "",
@@ -123,47 +131,47 @@ function Corpo() {
                                 children: "Fa\xe7a j\xe1 seu or\xe7amento"
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
-                                className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2___default().Inputar),
+                                className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().Inputar),
                                 type: "text",
                                 placeholder: "Nome",
                                 value: nome,
-                                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2___default().nome),
+                                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().nome),
                                 name: "nome",
                                 onChange: (e)=>setNome(e.target.value)
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
-                                className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2___default().Inputar),
+                                className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().Inputar),
                                 type: "text",
                                 placeholder: "E-mail",
                                 value: email,
-                                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2___default().email),
+                                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().email),
                                 name: "email",
                                 onChange: (e)=>setEmail(e.target.value)
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
-                                className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2___default().Inputar),
+                                className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().Inputar),
                                 type: "text",
                                 maxLength: 11,
                                 placeholder: "Telefone",
                                 value: telefone,
-                                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2___default().telefone),
+                                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().telefone),
                                 name: "telefone",
                                 onChange: (e)=>setTelefone(e.target.value)
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
                                 cols: "30",
                                 rows: "10",
-                                className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2___default().Inputar),
+                                className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().Inputar),
                                 type: "text",
                                 placeholder: "Descri\xe7\xe3o",
                                 value: descricao,
-                                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2___default().descricao),
+                                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().descricao),
                                 name: "descricao",
                                 onChange: (e)=>setDescricao(e.target.value)
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
                                 onClick: limpaCampos,
-                                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_2___default().botaoEnviar),
+                                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().botaoEnviar),
                                 type: "submit",
                                 children: "Enviar"
                             })

@@ -1,0 +1,34 @@
+#container {
+    /* border: 1px solid red; */
+    background-color: rgba(169, 169, 169, 0.121);
+}
+
+#lista{
+    display: flex;
+    margin-left: 2%;
+    
+}
+
+.item{
+    margin-right: 5px;
+    text-decoration: none;
+    list-style: none;
+    color: #363232b4;
+    font-size: 1.2em;
+   
+}
+
+.parag{
+    margin-right: 5px;
+    text-decoration: none;
+    list-style: none;
+    color: #363232b4;
+    font-size: 1.2em;
+   
+}
+
+.item:hover{
+    border-bottom: 4px solid #20beda;
+    transition: 1s;
+    
+}

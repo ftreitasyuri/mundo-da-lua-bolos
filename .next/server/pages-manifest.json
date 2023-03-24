@@ -2,12 +2,13 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/api/hello": "pages/api/hello.js",
-  "/contatos": "pages/contatos.html",
   "/bolos": "pages/bolos.html",
-  "/": "pages/index.html",
   "/_error": "pages/_error.js",
+  "/contatos": "pages/contatos.html",
+  "/": "pages/index.html",
   "/lembra": "pages/lembra.html",
   "/nataLunar": "pages/nataLunar.html",
+  "/pascoa": "pages/pascoa.html",
   "/quemSomos": "pages/quemSomos.html",
   "/404": "pages/404.html"
 }

@@ -1,5 +1,6 @@
 import styles from '../../styles/Corpo.module.css'
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function Corpo() {
 
@@ -54,7 +55,7 @@ export default function Corpo() {
 
             <div id={styles.latealEsquerda}>
                 <div id={styles.destaquePag}>
-                    <p>Aproveite já as promoções de pascoa</p>
+                    <p><Link className={styles.linkCorpo} href={'https://drive.google.com/file/d/1s4wE-ZUtXc8zUSpAQflW5wDufXYPx9QM/view'}>Aproveite já as promoções de pascoa</Link></p>
                 </div>
             </div>
 
