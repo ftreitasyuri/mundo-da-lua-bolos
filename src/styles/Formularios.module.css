@@ -1,32 +1,61 @@
 #form{
-    border: 1px solid red;
-    max-width: 48%;
+    /* border: 1px solid red; */
+    max-width: 100%;
+    max-height: 100%;
     padding: 1.5%;
 
     margin: 0 auto;
     text-align: center;
-    background-color: aquamarine;
-    background-image: url('../../public/imagensNatal/natal_1C.jpg');
+    background-color: #705445;
+    /* background-image: url('../../public/imagens/CapaPascoa.png'); */
+    border-radius: 10px;
 }
 
 #nome, #email, #telefone{
     font-size: 1.2em;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
 
     border-style: none;
 
 
     border-radius: 5px;
+    border-radius: 10px;
 
-    max-width: 70%;
-    min-width: 70%;
+
+    min-height: 4vh;
+    max-height: 4vh;
+    width: 20vw;
+    /* max-width: 20vw; */
+
 }
 
-#form #descricao{
-    max-width: 70%;
-    min-width: 70%;
-    min-height: 3em;
-    font-size: 1.3em;
+#titulo{
+    grid-area: 'titulo';
+}
+
+#nome{
+    grid-area: 'nome';
+}
+
+#email{
+    grid-area: 'email';
+}
+
+#telefone{
+    grid-area: 'telefone';
+}
+
+#descricao{
+
+    grid-area: 'descricao';
+
+    min-width: 20vw;
+    /* max-width: 60vw; */
+    min-height: 4vh;
+    max-height: 4vh;
+    border-radius: 10px;
+    
+    font-size: 1.4em;
 }
 
 #botaoEnviar{
@@ -35,7 +64,7 @@
     /* position: relative; */
     border-radius: 10px;
     /* background-color: rgba(22, 251, 175, 0.906); */
-    background-color: rgba(76, 156, 231, 0.943);
+    background-color: #ECD1BC;
 
 
     font-size: 1.4em;
@@ -43,7 +72,7 @@
     /* margin-left: 3vw; */
 
     height: 4vh;
-    max-width: 70%;
+    width: 20vw;
     min-width: 70%;
     align-items: center;
     justify-content: center;
@@ -51,10 +80,50 @@
     
 }
 
+/*  */
 
-
-@media (max-width: 750px){
+@media (max-width: 999px){
     #form{
-      max-width: 100%;
+      width: 100%;
+      
+
+      display: grid;
+
+      grid-template-areas: 
+      'titulo'
+      'nome'
+      'email'
+      'telefone'
+      'descricao'
+      ;
     }
+
+
+    #titulo{
+        font-size: 1em;
+    }
+
+    #nome, #email, #telefone{
+    min-height: 4vh;
+    max-height: 4vh;
+
+    /* min-width: 20vw; */
+    width: 90vw;
+    }
+    #descricao{
+    
+    width: 90vw;
+
+    
+    }
+
+    #botaoEnviar{
+        
+        margin: 0 auto;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        width: 90vw;
+        height: 5vh;
+    }
+
 }

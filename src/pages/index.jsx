@@ -10,35 +10,35 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.app}>
-      
-    <div id={styles.containerPrincipal}>
-        
+
+      <div id={styles.containerPrincipal}>
+
         <div id="cabecalho">
-        <Cabecalho />     
-        
-      </div>
+          <Cabecalho />
 
-      <div >
-        <Corpo/>
         </div>
-        <hr />
 
-        <div >
-        <Destaque />
+        <div id={styles.estiloCorpo}>
+          <Corpo />
         </div>
         <div className={styles.separacao}></div>
-        
-        <div className={styles.separacao}></div>
+
         <div>
-          <Depoimentos/>
+          <Destaque />
+        </div>
+        <div className={styles.separacao}></div>
+
+        
+        <div>
+          <Depoimentos />
         </div>
         <div className={styles.separacao}></div>
 
         <div >
-        <Rodape />
+          <Rodape />
         </div>
 
-    </div>
+      </div>
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import styles from '../../styles/Corpo.module.css'
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Formulario from '../Formulario';
 
 
 export default function Corpo() {
@@ -79,62 +80,7 @@ export default function Corpo() {
             </div></Link>
 
 
-            <div id={styles.latealDireita}>
-                <section>
-                    <form action="" onSubmit={handleChange}>
-
-
-                        <h2>Faça já seu orçamento</h2>
-
-                        {/* <p className="ParaG">Nome</p> */}
-                        <input className={styles.Inputar}
-                            type="text"
-                            placeholder="Nome"
-                            value={nome}
-                            id={styles.nome}
-                            name='nome'
-                            onChange={(e) => setNome(e.target.value)}
-                        />
-
-                        {/* <p className="ParaG">Email</p> */}
-                        <input className={styles.Inputar}
-                            type="text"
-                            placeholder="E-mail"
-                            value={email}
-                            id={styles.email}
-                            name='email'
-                            onChange={(e) => setEmail(e.target.value)}
-                        />
-
-                        {/* <p className="ParaG">Telefone</p> */}
-                        <input
-                            className={styles.Inputar}
-                            type="text"
-                            maxLength={11}
-                            placeholder="Telefone"
-                            value={telefone}
-                            id={styles.telefone}
-                            name='telefone'
-                            onChange={(e) => setTelefone(e.target.value)}
-                        />
-
-                        {/* <p className="ParaG" >Descrição</p> */}
-                        <textarea cols="30" rows="10"
-                            className={styles.Inputar}
-                            type="text"
-                            placeholder="Descrição"
-                            value={descricao}
-                            id={styles.descricao}
-                            name='descricao'
-                            onChange={(e) => setDescricao(e.target.value)}
-                        ></textarea>
-
-                        <button onClick={limpaCampos} id={styles.botaoEnviar} type="submit">Enviar</button>
-                    </form>
-
-                </section>
-
-            </div>
+            <Formulario />
 
         </div>
     )

@@ -24,7 +24,7 @@ export default function Formulario() {
     return (
         <form action="" className={'form'} onSubmit={capturandoEvento} method="post" id={styles.form}>
             
-            <h2>Faça já seu orçamento</h2>
+            <h2 id={styles.titulo}>Faça já seu orçamento</h2>
 
             <div>
                 {/* <label for="nome">Nome:</label> */}

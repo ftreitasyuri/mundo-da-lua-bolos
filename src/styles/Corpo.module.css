@@ -30,6 +30,10 @@
 }
 
 
+#tituloForm{
+    border: 2px red solid;
+    font-size: 1em;
+}
 
 
 #lateralEsquerda{
@@ -42,7 +46,7 @@
     border-radius: 10px;
     
     /* max-width: 60vw; */
-    height: 45vh;
+    height: 35vh;
     width: 45vw;
 
     grid-area: 'lateralEsquerda';
@@ -165,28 +169,6 @@
 
 } */
 
-@media (max-width: 1000px){
-    
-    #corpoForms{
-        grid-template-areas: 
-    'lateralEsquerda lateralDireita ';
-    }
-
-    #lateralDiretia:hover{
-        background-color: #FFF;
-    }
-    
-    #destaquePag{
-        font-size: 2.5em;
-        
-    }
-    
-    #corpoForms{
-        min-width: 60vw;
-    }
-
-
-}
 
 @media (min-width: 1000px){
     
@@ -210,7 +192,7 @@
 
     #lateralEsquerda{
         /* border: 2px red solid; */
-        height: 55vh;
+        height: 45vh;
         background-repeat: repeat;
         /* width: 100%; */
     }
@@ -218,7 +200,7 @@
 }
 
 
-@media (max-width: 900px){
+@media (max-width: 998px){
     #corpoForms{
         grid-template-areas: 
     'lateralEsquerda'
@@ -234,6 +216,9 @@
         /* max-width: 100%; */
         height: 45vh;
         width: 100%;
+
+        /* border: 2px red solid; */
     }
 
 }
+

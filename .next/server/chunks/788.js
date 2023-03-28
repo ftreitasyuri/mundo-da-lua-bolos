@@ -1,5 +1,5 @@
-exports.id = 940;
-exports.ids = [940];
+exports.id = 788;
+exports.ids = [788];
 exports.modules = {
 
 /***/ 875:
@@ -8,6 +8,7 @@ exports.modules = {
 // Exports
 module.exports = {
 	"corpoForms": "Corpo_corpoForms__HMNaM",
+	"tituloForm": "Corpo_tituloForm__FGDe2",
 	"lateralEsquerda": "Corpo_lateralEsquerda__A6cbq",
 	"destaquePag": "Corpo_destaquePag__iy78F",
 	"latealDireita": "Corpo_latealDireita__Dnaje",
@@ -44,6 +45,7 @@ module.exports = {
 	"nome": "Formularios_nome__RaKig",
 	"email": "Formularios_email__gQtGm",
 	"telefone": "Formularios_telefone__CQPNE",
+	"titulo": "Formularios_titulo__2TjAE",
 	"descricao": "Formularios_descricao___A_Nv",
 	"botaoEnviar": "Formularios_botaoEnviar__jbYUx"
 };
@@ -60,12 +62,14 @@ module.exports = {
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(875);
-/* harmony import */ var _styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(875);
+/* harmony import */ var _styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1664);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Formulario__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7143);
+
 
 
 
@@ -112,77 +116,19 @@ function Corpo() {
     //     window.open(url, '_blank')
     // })
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().corpoForms),
+        id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_4___default().corpoForms),
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
-                className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().linkCorpo),
+                className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_4___default().linkCorpo),
                 href: "https://drive.google.com/file/d/1s4wE-ZUtXc8zUSpAQflW5wDufXYPx9QM/view",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().lateralEsquerda),
+                    id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_4___default().lateralEsquerda),
                     children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().destaquePag)
+                        id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_4___default().destaquePag)
                     })
                 })
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().latealDireita),
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
-                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
-                        action: "",
-                        onSubmit: handleChange,
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                                children: "Fa\xe7a j\xe1 seu or\xe7amento"
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
-                                className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().Inputar),
-                                type: "text",
-                                placeholder: "Nome",
-                                value: nome,
-                                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().nome),
-                                name: "nome",
-                                onChange: (e)=>setNome(e.target.value)
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
-                                className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().Inputar),
-                                type: "text",
-                                placeholder: "E-mail",
-                                value: email,
-                                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().email),
-                                name: "email",
-                                onChange: (e)=>setEmail(e.target.value)
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
-                                className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().Inputar),
-                                type: "text",
-                                maxLength: 11,
-                                placeholder: "Telefone",
-                                value: telefone,
-                                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().telefone),
-                                name: "telefone",
-                                onChange: (e)=>setTelefone(e.target.value)
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("textarea", {
-                                cols: "30",
-                                rows: "10",
-                                className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().Inputar),
-                                type: "text",
-                                placeholder: "Descri\xe7\xe3o",
-                                value: descricao,
-                                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().descricao),
-                                name: "descricao",
-                                onChange: (e)=>setDescricao(e.target.value)
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                                onClick: limpaCampos,
-                                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_3___default().botaoEnviar),
-                                type: "submit",
-                                children: "Enviar"
-                            })
-                        ]
-                    })
-                })
-            })
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Formulario__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {})
         ]
     });
 }
@@ -317,6 +263,7 @@ function Formulario() {
         id: (_styles_Formularios_module_css__WEBPACK_IMPORTED_MODULE_2___default().form),
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                id: (_styles_Formularios_module_css__WEBPACK_IMPORTED_MODULE_2___default().titulo),
                 children: "Fa\xe7a j\xe1 seu or\xe7amento"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
