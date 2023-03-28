@@ -25,60 +25,58 @@ export default function Corpo() {
     // Limpando os inpus
     function limpaCampos() {
 
-        
+
         let v1 = document.getElementsByName('nome').value
         let v2 = document.getElementsByName('email').value
         let v3 = document.getElementsByName('telefone').value
         let v4 = document.getElementsByName('descricao').value
-        let valor =[`${v1}`, `${v2}`, `${v3}`, `${v4}`]
+        let valor = [`${v1}`, `${v2}`, `${v3}`, `${v4}`]
 
         let inc = 0
-        while(inc <= 3){      
+        while (inc <= 3) {
 
-        if (valor[inc] === false) {
-            alert(`Verifique o formulário, há campos não preenchidos`)
-            break            
+            if (valor[inc] === false) {
+                alert(`Verifique o formulário, há campos não preenchidos`)
+                break
+            }
+            inc++
+
         }
-        inc++
-        
-        }
-        document.getElementsByName('nome').value=''
-        document.getElementsByName('email').value=''
-        document.getElementsByName('telefone').value=''
-        document.getElementsByName('descricao').value=''
+        document.getElementsByName('nome').value = ''
+        document.getElementsByName('email').value = ''
+        document.getElementsByName('telefone').value = ''
+        document.getElementsByName('descricao').value = ''
         alert('Formulário enviado')
 
-    }   
-
-   
-        
-    
-        const [count, setCount] = useState(0)
-
-        useEffect(() =>{
-            // document.title = 'Você conseguiu' 
-            document.getElementsByName('lateralEsquerda')
-            let url = 'https://drive.google.com/file/d/1s4wE-ZUtXc8zUSpAQflW5wDufXYPx9QM/view'
-            window.open(url, '_blank')
-
-            
-        })
-    
-    
+    }
 
 
-     
+
+
+    // const [count, setCount] = useState(0)
+
+    // useEffect(() =>{
+    //     document.title = 'Você conseguiu' 
+    //     document.getElementById('lateralEsquerda')
+    //     let url = 'https://drive.google.com/file/d/1s4wE-ZUtXc8zUSpAQflW5wDufXYPx9QM/view'
+    //     window.open(url, '_blank')
+
+
+    // })
+
+
+
 
     return (
         <div id={styles.corpoForms}>
 
-            <div id={styles.latealEsquerda} >
-                <div id={styles.destaquePag} name={'lateralEsquerda'} onClick={() => setCount()}>
-                    <p><Link className={styles.linkCorpo} href={'https://drive.google.com/file/d/1s4wE-ZUtXc8zUSpAQflW5wDufXYPx9QM/view'}>Aproveite já as promoções de pascoa</Link></p>
-                    {/* <p >Você clicou {count} vezes</p> */}
+            <Link className={styles.linkCorpo} href={'https://drive.google.com/file/d/1s4wE-ZUtXc8zUSpAQflW5wDufXYPx9QM/view'}><div id={styles.lateralEsquerda}>
+                <div id={styles.destaquePag}>
+                    {/* <p>Aproveite já as promoções de pascoa</p> */}
+
                     {/* <button onClick={() => setCount(count + 1)} >Click aqui</button> */}
                 </div>
-            </div>
+            </div></Link>
 
 
             <div id={styles.latealDireita}>
@@ -109,7 +107,7 @@ export default function Corpo() {
                         />
 
                         {/* <p className="ParaG">Telefone</p> */}
-                        <input 
+                        <input
                             className={styles.Inputar}
                             type="text"
                             maxLength={11}

@@ -5,7 +5,7 @@ export default function Cabecalho() {
     return (
         <div className={styles.classNav}>
             <div>
-                <p className={styles.logotipo}></p>
+                <Link className={styles.links} href="/"><p className={styles.logotipo}></p></Link>
             </div>
 
             

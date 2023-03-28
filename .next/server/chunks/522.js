@@ -56,8 +56,12 @@ function Cabecalho() {
         className: (_styles_Cabecalho_module_css__WEBPACK_IMPORTED_MODULE_2___default().classNav),
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                    className: (_styles_Cabecalho_module_css__WEBPACK_IMPORTED_MODULE_2___default().logotipo)
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
+                    className: (_styles_Cabecalho_module_css__WEBPACK_IMPORTED_MODULE_2___default().links),
+                    href: "/",
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                        className: (_styles_Cabecalho_module_css__WEBPACK_IMPORTED_MODULE_2___default().logotipo)
+                    })
                 })
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
