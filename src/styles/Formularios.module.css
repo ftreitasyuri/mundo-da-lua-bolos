@@ -85,7 +85,7 @@
 
 @media (max-width: 999px){
     #form{
-      width: 98%;
+      /* width: 100%; */
       
 
       display: grid;

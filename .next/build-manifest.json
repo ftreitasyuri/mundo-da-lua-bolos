@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/lxWx7Rmo6HWt1vI3QU-Fy/_buildManifest.js",
-    "static/lxWx7Rmo6HWt1vI3QU-Fy/_ssgManifest.js"
+    "static/S_dkMd0HvAUQeZRjvnBt7/_buildManifest.js",
+    "static/S_dkMd0HvAUQeZRjvnBt7/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -15,14 +15,14 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/61-ed6719157a90cdbf.js",
-      "static/css/8a3a674d6f1433fa.css",
+      "static/css/c503262dd2b07ba5.css",
       "static/chunks/pages/index-014f6685dc1ce257.js"
     ],
     "/_app": [
       "static/chunks/webpack-8fa1640cc84ba8fe.js",
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
-      "static/css/96a431839565f889.css",
+      "static/css/c9d742b74f0d79cf.css",
       "static/chunks/pages/_app-a104095719b1ba42.js"
     ],
     "/_error": [
@@ -36,7 +36,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/61-ed6719157a90cdbf.js",
-      "static/css/846f796d7fdfb979.css",
+      "static/css/97ce3df3b6b41722.css",
       "static/chunks/pages/bolos-7f2182e99ef83112.js"
     ],
     "/contatos": [
@@ -44,7 +44,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/61-ed6719157a90cdbf.js",
-      "static/css/888d4c76f905959a.css",
+      "static/css/e6bb4ef9fcb14db8.css",
       "static/chunks/pages/contatos-f79c31c38e74750b.js"
     ],
     "/lembra": [
@@ -52,7 +52,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/61-ed6719157a90cdbf.js",
-      "static/css/bbd483e02f01ca94.css",
+      "static/css/560fdcb2b5dbc0e8.css",
       "static/chunks/pages/lembra-f6b44b5da6363c3c.js"
     ],
     "/nataLunar": [
@@ -60,7 +60,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/61-ed6719157a90cdbf.js",
-      "static/css/bd92e278289988b2.css",
+      "static/css/9499ada2c8c02ace.css",
       "static/chunks/pages/nataLunar-b62df7fece62319a.js"
     ],
     "/pascoa": [
@@ -68,7 +68,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/61-ed6719157a90cdbf.js",
-      "static/css/45a626d90269eaaa.css",
+      "static/css/7f9339d57d939022.css",
       "static/chunks/pages/pascoa-af8d219b7336ce5b.js"
     ],
     "/quemSomos": [
@@ -76,7 +76,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/61-ed6719157a90cdbf.js",
-      "static/css/3186c379f43ddb3c.css",
+      "static/css/2dfda0ce5ed4b887.css",
       "static/chunks/pages/quemSomos-6e183d3164248668.js"
     ]
   },

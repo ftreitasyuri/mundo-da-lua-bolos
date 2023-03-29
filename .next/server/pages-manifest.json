@@ -1,14 +1,14 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
   "/api/hello": "pages/api/hello.js",
-  "/bolos": "pages/bolos.html",
+  "/_error": "pages/_error.js",
   "/contatos": "pages/contatos.html",
   "/": "pages/index.html",
   "/lembra": "pages/lembra.html",
   "/nataLunar": "pages/nataLunar.html",
   "/pascoa": "pages/pascoa.html",
   "/quemSomos": "pages/quemSomos.html",
+  "/bolos": "pages/bolos.html",
   "/404": "pages/404.html"
 }

@@ -7,7 +7,7 @@ body{
   /* min-width: 00px; */
 
   max-width: 1300px;
-  /* max-width: 90vw; */
+  
 
   overflow-x: hidden; /* Hide horizontal scrollbar */
   /* overflow-y: hidden; Hide horizontal scrollbar */
@@ -19,12 +19,14 @@ body{
 
 @import url('https://fonts.googleapis.com/css2?family= Indie +Flower & display=swap');
 
-@media (max-width: 700px){
+@media (max-width: 999px){
   body{
     margin: 0;
     padding:0;
+    min-width: 120vw;
+    border: 2px solid red;
+    min-width: 450px;
     
-    /* overflow-y: none;
-    width: 100%; */
+    
   }
 }

@@ -4,6 +4,7 @@
     background-color: #705445;
     /* opacity: .8; */
 
+    width: 100%;
     height: 80px;
     margin-bottom: 10px;
 
@@ -71,8 +72,6 @@
     }
 
     .classNav {
-        width: 100%;
-
         height: 60px;
     }
 }
