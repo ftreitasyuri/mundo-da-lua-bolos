@@ -116,24 +116,18 @@ function Corpo() {
     //     let url = 'https://drive.google.com/file/d/1s4wE-ZUtXc8zUSpAQflW5wDufXYPx9QM/view'
     //     window.open(url, '_blank')
     // })
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
         id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_4___default().corpoForms),
-        children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
-                className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_4___default().linkCorpo),
-                href: "https://drive.google.com/file/d/1s4wE-ZUtXc8zUSpAQflW5wDufXYPx9QM/view",
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
+            className: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_4___default().linkCorpo),
+            href: "https://drive.google.com/file/d/1s4wE-ZUtXc8zUSpAQflW5wDufXYPx9QM/view",
+            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_4___default().lateralEsquerda),
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_4___default().lateralEsquerda),
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_4___default().destaquePag)
-                    })
+                    id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_4___default().destaquePag)
                 })
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_4___default().importForm),
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Formulario__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {})
             })
-        ]
+        })
     });
 }
 

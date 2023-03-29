@@ -13,13 +13,42 @@
 }
 
 #corpo{
+
+  margin: 0;
   margin-top: 3vh;
+  padding: 0;
+
+  display: grid;
+  gap: 1px;
+
+  grid-template-areas: 
+  'corpoDone formCorpo';
+
+}
+
+#corpoDone{
+  grid-area: 'corpoDone';
+}
+
+#formCorpo{
+  grid-area: 'formCorpo';
 }
 
 /* classe para fazer separação entre components */
 /* .separacao{
   height: 7vh;
 } */
+
+@media (max-width: 800px){
+  #corpo{
+  
+  grid-template-areas: 
+  'corpoDone'
+  'formCorpo'
+  ;
+
+}
+}
 
 @media (max-width: 700px){
   #containerPrincipal{

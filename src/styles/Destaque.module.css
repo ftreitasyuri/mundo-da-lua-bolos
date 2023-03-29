@@ -1,8 +1,8 @@
 .destaque {
-    /* border: solid 2px green; */
+    
     /* background-color: rgba(161, 253, 222, 0.904); */
 
-    height: 300px;
+    
 
     display: grid;
 
@@ -16,9 +16,6 @@
 
 .parte1{
     grid-area: 'parte1';
-    /* min-width: 33%; */
-    width: 22vw;
-    /* border: solid 3px red; */
 
     background-image: url('../../public/imagensNatal/natal_1.jpg');
     background-size: 100%;
@@ -46,9 +43,7 @@
 }
 .parte2{
     grid-area: 'parte2';
-    /* min-width: 33%; */
-    width: 23vw;
-    /* border: solid 3px red; */
+
     background-image: url('../../public/imagensNatal/vaicomemoraroniversim.jpg');
     background-size: 100%;
     
@@ -71,9 +66,7 @@
 
 .parte3{
     grid-area: 'parte3';
-    /* min-width: 33%; */
-    width: 22vw;
-    /* border: solid 3px red; */
+
     background-image: url('../../public/imagensNatal/brigadeiros.jpg');
     background-size: 100%;
 
@@ -107,6 +100,15 @@
     /* z-index: 1; */
     margin-top: 9vh;
 
+}
+
+@media (min-width: 1000px){
+    .parte1, .parte2, .parte3{
+        padding: 1vw;
+        margin-top: 4vh;
+        max-width: 25vw;
+        height: 200px;
+    }
 }
 
 @media (max-width: 999px){
