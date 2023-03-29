@@ -5,7 +5,7 @@
     /* opacity: .8; */
 
     height: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
     display: flex;
     justify-content: space-around;
@@ -55,11 +55,24 @@
 @import url('https://fonts.googleapis.com/css2?family= Indie +Flower & display=swap');
 
 @media (max-width: 890px){
+    .logotipo{
+        background-size: 90%;
+        
+        margin-top: -22px;
+        margin-left: 10px;        
+
+        width: 50px;
+        height: 50px;
+    }
+
     .links{
-        font-size: 1.2em;
+        font-size: 1.3em;
+        /* margin-right: -5px; */
     }
 
     .classNav {
-        width: 100vw;
+        width: 100%;
+
+        height: 60px;
     }
 }

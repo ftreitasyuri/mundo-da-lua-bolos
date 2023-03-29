@@ -80,11 +80,12 @@
     
 }
 
+
 /*  */
 
 @media (max-width: 999px){
     #form{
-      width: 100%;
+      width: 98%;
       
 
       display: grid;
@@ -125,5 +126,10 @@
         width: 90vw;
         height: 5vh;
     }
+
+    #importForm{
+        margin-top:23vh;
+    }
+    
 
 }

@@ -11,9 +11,9 @@ export default function Destaque() {
     return (
     <>
     <div className={styles.destaque}>
-        <div className={styles.parte1}><Link className={styles.deco} href='/nataLunar'><h2 className={styles.textoDeco}>Natal<br/> Lunar</h2></Link></div>
-        <div className={styles.parte2}><Link className={styles.deco} href='/bolos'><h2 className={styles.textoDeco} >Bolos<br/> divertidos</h2></Link></div>
-        <div className={styles.parte3}><Link className={styles.deco} href='/lembra'><h2 className={styles.textoDeco} >Lembrancinhas<br/> da lua</h2></Link></div>
+    <Link className={styles.deco} href='/nataLunar'> <div className={styles.parte1}><h2 className={styles.textoDeco}>Natal<br/> Lunar</h2></div></Link>
+    <Link className={styles.deco} href='/bolos'><div className={styles.parte2}><h2 className={styles.textoDeco} >Bolos<br/> divertidos</h2></div></Link>
+    <Link className={styles.deco} href='/lembra'><div className={styles.parte3}><h2 className={styles.textoDeco} >Lembrancinhas<br/> da lua</h2></div></Link>
         
        
     </div>

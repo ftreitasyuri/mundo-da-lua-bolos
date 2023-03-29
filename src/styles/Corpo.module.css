@@ -41,7 +41,7 @@
     /* width: 45vw; */
     /* border: solid 2px red; */
     background-image: url('../../public/imagens/CapaPascoa.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
     border-radius: 10px;
     
@@ -97,9 +97,11 @@
 }
 
 .linkCorpo{
-    text-decoration: none;
+    /* text-decoration: none;
     list-style: none;
-    color: #fff;
+    color: #fff; */
+
+    grid-area: 'linkCorpo';
 }
 
 /* INPUT */
@@ -174,7 +176,9 @@
     
     #corpoForms{
         grid-template-areas: 
-    'lateralEsquerda lateralDireita ';
+    'lateralEsquerda linkCorpo';
+
+     /* gap: 40px; */
     }
 
     #lateralDiretia:hover{
@@ -204,8 +208,11 @@
     #corpoForms{
         grid-template-areas: 
     'lateralEsquerda'
-    'lateralDireita ';
+    'linkCorpo ';
+
+     gap: 4vh;
     }
+
 
     #destaquePag{
         font-size: 2em;
@@ -214,7 +221,7 @@
 
     #lateralEsquerda{
         /* max-width: 100%; */
-        height: 45vh;
+        height: 30vh;
         width: 100%;
 
         /* border: 2px red solid; */

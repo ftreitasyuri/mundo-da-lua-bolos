@@ -11,10 +11,14 @@
 
 }
 
-/* classe para fazer separação entre components */
-.separacao{
-  height: 7vh;
+#corpo{
+  margin-top: 3vh;
 }
+
+/* classe para fazer separação entre components */
+/* .separacao{
+  height: 7vh;
+} */
 
 @media (max-width: 700px){
   #containerPrincipal{
@@ -27,4 +31,6 @@
   
   }
   
+
+
 }

@@ -79,8 +79,10 @@ export default function Corpo() {
                 </div>
             </div></Link>
 
-
+            <div id={styles.importForm}>
             <Formulario />
+            </div>
+            
 
         </div>
     )

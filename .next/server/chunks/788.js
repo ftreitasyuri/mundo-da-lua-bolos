@@ -47,7 +47,8 @@ module.exports = {
 	"telefone": "Formularios_telefone__CQPNE",
 	"titulo": "Formularios_titulo__2TjAE",
 	"descricao": "Formularios_descricao___A_Nv",
-	"botaoEnviar": "Formularios_botaoEnviar__jbYUx"
+	"botaoEnviar": "Formularios_botaoEnviar__jbYUx",
+	"importForm": "Formularios_importForm__Mex7H"
 };
 
 
@@ -128,7 +129,10 @@ function Corpo() {
                     })
                 })
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Formulario__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {})
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                id: (_styles_Corpo_module_css__WEBPACK_IMPORTED_MODULE_4___default().importForm),
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Formulario__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {})
+            })
         ]
     });
 }
