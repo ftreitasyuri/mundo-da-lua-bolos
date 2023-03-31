@@ -1,0 +1,20 @@
+#containerDuvidas{
+    border: 2px solid red;
+    background-color: rgba(248, 207, 154, 0.276);
+}
+
+#sessaoDuvidas{
+    display: grid;
+    gap: 1%;
+
+    grid-template-areas: 
+    'ladoEsquerdo ladoDiretio';
+}
+
+#ladoEsquerdo{
+    grid-area: 'ladoEsquerdo';
+}
+
+#ladoDiretio{
+    grid-area: 'ladoDiretio';
+}

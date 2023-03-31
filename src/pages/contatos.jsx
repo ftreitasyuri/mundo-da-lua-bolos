@@ -1,6 +1,5 @@
 import Cabecalho from '../components/Cabecalho';
-import Corpo from '../components/Corpo';
-import Depoimentos from '../components/Depoimentos';
+import Duvidas from '../components/Duvidas'
 import Formulario from '../components/Formulario';
 import Rodape from '../components/Rodape';
 import styles from '../styles/Contatos.module.css'
@@ -17,9 +16,9 @@ export default function Contatos(){
             
           </div >
 
-            <div>
-            <Formulario />
-
+            <div id={styles.formContainer}>
+            <div id={styles.duvidas}><Duvidas /></div>
+            <div id={styles.formContatos}><Formulario /></div>            
             </div>
 
             <div >

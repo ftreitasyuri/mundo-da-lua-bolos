@@ -1,14 +1,14 @@
 {
+  "/_error": "pages/_error.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/contatos": "pages/contatos.html",
   "/api/hello": "pages/api/hello.js",
-  "/bolos": "pages/bolos.html",
+  "/contatos": "pages/contatos.html",
   "/": "pages/index.html",
-  "/_error": "pages/_error.js",
-  "/lembra": "pages/lembra.html",
-  "/nataLunar": "pages/nataLunar.html",
   "/pascoa": "pages/pascoa.html",
   "/quemSomos": "pages/quemSomos.html",
+  "/nataLunar": "pages/nataLunar.html",
+  "/lembra": "pages/lembra.html",
+  "/bolos": "pages/bolos.html",
   "/404": "pages/404.html"
 }

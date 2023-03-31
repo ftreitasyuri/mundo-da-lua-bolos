@@ -1,8 +1,9 @@
+
 .rodape {
     /* border: solid 2px green; */
     background-color: #705445;
     /* opacity: .8; */
-
+    color: #ffffffd8;
 
     /* height: 150px; */
     min-height: 20vh;
@@ -63,6 +64,11 @@
     
        
 }
+
+.styleImagens{
+    background-color: #fff;
+    border-radius: 7px;
+    }
 
 @media (max-width: 700px){
     #sessaoLadoDireito{

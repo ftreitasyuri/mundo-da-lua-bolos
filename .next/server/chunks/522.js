@@ -28,7 +28,8 @@ module.exports = {
 	"ladoDireito": "Rodape_ladoDireito__ut1HU",
 	"contMeio": "Rodape_contMeio__zzN6c",
 	"ladoDiretio": "Rodape_ladoDiretio__gPwBi",
-	"sessaoLadoDireito": "Rodape_sessaoLadoDireito__ziCcV"
+	"sessaoLadoDireito": "Rodape_sessaoLadoDireito__ziCcV",
+	"styleImagens": "Rodape_styleImagens__aXs4I"
 };
 
 

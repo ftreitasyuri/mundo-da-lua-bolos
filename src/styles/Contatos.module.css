@@ -6,7 +6,7 @@
     /* max-width: 70vw; */
     /* max-height: 500px; */
     margin: 0 auto;
-    max-width: 70vw;
+    /* max-width: 70vw; */
     display: grid;
   
   }
@@ -15,16 +15,45 @@
   .separacao{
     height: 7vh;
   }
+
+  #formContainer{
+    /* width: 50%; */
+    /* margin-left: 50%; */
+    margin-bottom: 1vh;
+
+    display: grid;
+    gap: 1%;
+
+    grid-template-areas: 
+    'duvidas formContatos';
+  }
   
+
+  #duvidas{
+    grid-area: 'duvidas';
+    border: 2px solid red;
+    border-radius: 10px;
+  }
+
+  #formContatos{
+    grid-area: 'formContatos';
+  }
+
   @media (max-width: 700px){
-    #containerPrincipal{
+    .app{
       width: 100%;
       /* max-height: 500px; */
       margin: 0;
       padding: 0;
-    
+      /* border: 2px solid red; */
       /* display: grid; */
     
+    }
+
+    #formContainer{
+      width: 100%;
+      margin: 0 0 1vh 0;
+      padding: 0;
     }
     
   }
