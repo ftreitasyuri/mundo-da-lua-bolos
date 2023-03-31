@@ -1,14 +1,14 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
   "/api/hello": "pages/api/hello.js",
   "/bolos": "pages/bolos.html",
   "/contatos": "pages/contatos.html",
   "/_error": "pages/_error.js",
-  "/": "pages/index.html",
+  "/_document": "pages/_document.js",
   "/lembra": "pages/lembra.html",
   "/nataLunar": "pages/nataLunar.html",
-  "/pascoa": "pages/pascoa.html",
+  "/": "pages/index.html",
   "/quemSomos": "pages/quemSomos.html",
+  "/pascoa": "pages/pascoa.html",
   "/404": "pages/404.html"
 }

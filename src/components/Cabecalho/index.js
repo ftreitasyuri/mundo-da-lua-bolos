@@ -10,8 +10,8 @@ export default function Cabecalho() {
 
             
             <div id={styles.flexdiv}>
-                <p>
-                    <Link className={styles.links} href="/">Home</Link>
+                <p >
+                    <Link className={styles.linksHome} href="/">Home</Link>
                 </p>                
                 <p>
                     <Link className={styles.links} href="/contatos">Contatos</Link>

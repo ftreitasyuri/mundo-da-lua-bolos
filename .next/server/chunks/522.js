@@ -10,6 +10,7 @@ module.exports = {
 	"classNav": "Cabecalho_classNav__RTnLg",
 	"logotipo": "Cabecalho_logotipo__Uvkau",
 	"flexdiv": "Cabecalho_flexdiv__TsNUD",
+	"linksHome": "Cabecalho_linksHome__xfuEE",
 	"links": "Cabecalho_links__mU8bF"
 };
 
@@ -69,7 +70,7 @@ function Cabecalho() {
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                            className: (_styles_Cabecalho_module_css__WEBPACK_IMPORTED_MODULE_2___default().links),
+                            className: (_styles_Cabecalho_module_css__WEBPACK_IMPORTED_MODULE_2___default().linksHome),
                             href: "/",
                             children: "Home"
                         })

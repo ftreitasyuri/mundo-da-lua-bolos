@@ -29,6 +29,31 @@
     
 }
 
+.linksHome {
+    margin-right: 10px;
+    margin-left: 20px;
+    
+    text-decoration: none;   
+    list-style: none; 
+
+    font-size: 1.6em;
+    font-family: 'Indie Flower', cursive;
+  
+    
+    color:#fff;
+    /* pointer-events: none; */
+  
+}
+
+.linksHome:hover{
+    
+    /* background-color: red; */
+    border-bottom: 2px solid #fff
+
+    
+}
+
+
 .links {
     margin-right: 10px;
     margin-left: 20px;
@@ -41,6 +66,7 @@
   
     
     color:#fff;
+    pointer-events: none;
   
 }
 

@@ -42,9 +42,11 @@ function Formulario() {
     const [nome, setNome] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)("");
     const [email, setEmail] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)("");
     const [telefone, setTelefone] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)("");
+    const [pessoa, setPessoa] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)("");
     const [descricao, setDescricao] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)("");
     function capturandoEvento(e) {
-        return e.preventDefault(), console.log(nome, email, telefone, descricao), document.querySelector("form").reset();
+        return e.preventDefault(), console.log(nome, email, telefone, pessoa, descricao), // console.log(pessoa),
+        document.querySelector("form").reset();
     }
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
         action: "",
@@ -78,9 +80,12 @@ function Formulario() {
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
                     name: "telefone",
-                    type: "text",
+                    type: "tel",
+                    placeholder: "Tel (11) 91234-1234",
+                    // pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})"
+                    required: true,
                     id: (_styles_Formularios_module_css__WEBPACK_IMPORTED_MODULE_2___default().telefone),
-                    placeholder: "Telefone",
+                    // placeholder='Telefone'
                     onChange: (e)=>setTelefone(e.target.value)
                 })
             }),
