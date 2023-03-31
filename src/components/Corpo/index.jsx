@@ -1,70 +1,25 @@
-import styles from '../../styles/Corpo.module.css'
+// import styles from '../../styles/Corpo.module.css'
+import styles from '../../styles/Formularios.module.css'
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Formulario from '../Formulario';
+
 
 
 export default function Corpo() {
-
 
     const [nome, setNome] = useState("")
     const [email, setEmail] = useState("")
     const [telefone, setTelefone] = useState("")
     const [descricao, setDescricao] = useState("")
 
-
-
-    function handleChange(e) {
+    function capturandoEvento(e) {
         return (
             e.preventDefault(),
-            console.log(nome, email, telefone, descricao)
+            console.log(nome, email, telefone, descricao),
 
+            document.querySelector("form").reset()
         )
-
     }
-
-    // Limpando os inpus
-    function limpaCampos() {
-
-
-        let v1 = document.getElementsByName('nome').value
-        let v2 = document.getElementsByName('email').value
-        let v3 = document.getElementsByName('telefone').value
-        let v4 = document.getElementsByName('descricao').value
-        let valor = [`${v1}`, `${v2}`, `${v3}`, `${v4}`]
-
-        let inc = 0
-        while (inc <= 3) {
-
-            if (valor[inc] === false) {
-                alert(`Verifique o formulário, há campos não preenchidos`)
-                break
-            }
-            inc++
-
-        }
-        document.getElementsByName('nome').value = ''
-        document.getElementsByName('email').value = ''
-        document.getElementsByName('telefone').value = ''
-        document.getElementsByName('descricao').value = ''
-        alert('Formulário enviado')
-
-    }
-
-
-
-
-    // const [count, setCount] = useState(0)
-
-    // useEffect(() =>{
-    //     document.title = 'Você conseguiu' 
-    //     document.getElementById('lateralEsquerda')
-    //     let url = 'https://drive.google.com/file/d/1s4wE-ZUtXc8zUSpAQflW5wDufXYPx9QM/view'
-    //     window.open(url, '_blank')
-
-
-    // })
-
 
 
 
@@ -79,10 +34,58 @@ export default function Corpo() {
                 </div>
             </div></Link>
 
-            {/* <div id={styles.importForm}>
-            <Formulario />
-            </div>
-             */}
+            {/* #################################################################################################################################################################### */}
+
+            <form action="" className={'form'} onSubmit={capturandoEvento} method="post" id={styles.form}>
+
+                <h2 id={styles.titulo}>Faça já seu orçamento</h2>
+
+                <div>
+                    {/* <label for="nome">Nome:</label> */}
+                    <input
+                        type="text"
+                        name={'nome'}
+                        id={styles.nome}
+                        placeholder='Digite seu nome'
+                        onChange={(e) => setNome(e.target.value)}
+                    />
+                </div>
+                <div>
+                    {/* <label for="email">E-mail:</label> */}
+                    <input
+                        type="email"
+                        name='email'
+                        id={styles.email}
+                        placeholder='Digite seu e-mail'
+                        onChange={(e) => setEmail(e.target.value)}
+                    />
+                </div>
+                <div>
+                    {/* <label for="nome">Nome:</label> */}
+                    <input
+                        name='telefone'
+                        type="text"
+                        id={styles.telefone}
+                        placeholder='Telefone'
+                        onChange={(e) => setTelefone(e.target.value)}
+
+                    />
+                </div>
+                <div>
+                    {/* <label for="msg">Mensagem:</label> */}
+                    <textarea
+                        name='descricao'
+                        type='text'
+                        id={styles.descricao}
+                        placeholder='Digite sua mensagem aqui...'
+                        onChange={(e) => setDescricao(e.target.value)}
+
+                    ></textarea>
+                </div>
+                <button type='submit' id={styles.botaoEnviar}>Enviar</button>
+            </form>
+
+
 
         </div>
     )

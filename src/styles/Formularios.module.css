@@ -1,3 +1,102 @@
+
+#corpoForms {
+       
+    /* background-color: rgba(161, 253, 222, 0.254); */
+    /* border: solid 2px blue;  */
+    /* max-height: 600px; */
+    min-width: 20vw;
+    
+    /* display: inline-grid; */
+    display: grid;
+
+    grid-template-areas: 
+    'lateralEsquerda form';
+    /* gap: 1%; */
+    
+
+    gap: 20px;
+
+}
+
+#lateralEsquerda{
+    /* height: 500px; */
+    /* width: 45vw; */
+    /* border: solid 2px red; */
+    background-image: url('../../public/imagens/CapaPascoa.png');
+    background-repeat: repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    width: 55vw;
+    /* height: 50vh; */
+
+    /* min-height: 62vh; */
+
+    grid-area: 'lateralEsquerda';
+}
+
+@import url('https://fonts.googleapis.com/css2?family= Indie +Flower & display=swap');
+
+
+/* AREA MEDIA */
+
+
+@media (min-width: 1200px){
+    #lateralEsquerda{
+        /* border: 2px red solid; */
+        height: 65vh;
+        background-repeat: repeat;
+        /* width: 100%; */
+    }
+}
+
+@media (min-width: 1000px){
+    
+    #corpoForms{
+        grid-template-areas: 
+    'lateralEsquerda linkCorpo';
+
+     /* gap: 40px; */
+    }
+       
+    /* #corpoForms{
+        min-width: 60vw;
+    } */
+
+    #lateralEsquerda{
+        /* border: 2px red solid; */
+        height: 49vh;
+        background-repeat: repeat;
+        /* width: 100%; */
+    }
+
+}
+
+
+@media (max-width: 999px){
+    #corpoForms{
+        grid-template-areas: 
+    'lateralEsquerda'
+    'form';
+
+     gap: 4vh;
+    }
+
+
+    #lateralEsquerda{
+        /* max-width: 100%; */
+        height: 45vh;
+        width: 100%;
+
+        /* border: 2px red solid; */
+    }
+
+}
+
+/* C########################################################################### */
+
+
+
+
 #form{
     /* border: 1px solid red; */
     /* max-width: 100%;

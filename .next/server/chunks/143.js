@@ -7,6 +7,8 @@ exports.modules = {
 
 // Exports
 module.exports = {
+	"corpoForms": "Formularios_corpoForms__CPD3X",
+	"lateralEsquerda": "Formularios_lateralEsquerda__NwreZ",
 	"form": "Formularios_form__O1zWg",
 	"nome": "Formularios_nome__RaKig",
 	"email": "Formularios_email__gQtGm",

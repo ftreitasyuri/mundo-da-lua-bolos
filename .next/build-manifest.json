@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/dfPg46pDJFxPZE2ugbi1Q/_buildManifest.js",
-    "static/dfPg46pDJFxPZE2ugbi1Q/_ssgManifest.js"
+    "static/4oPGI2NVtP8_H0ON006v1/_buildManifest.js",
+    "static/4oPGI2NVtP8_H0ON006v1/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -15,8 +15,8 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/61-ed6719157a90cdbf.js",
-      "static/css/fa20724966bf4eeb.css",
-      "static/chunks/pages/index-8242c664c5b7bf1b.js"
+      "static/css/2e0955e5a5e200cd.css",
+      "static/chunks/pages/index-b715e751c5c91eba.js"
     ],
     "/_app": [
       "static/chunks/webpack-8fa1640cc84ba8fe.js",
@@ -44,8 +44,8 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0ecb9ccfcb6c9b24.js",
       "static/chunks/61-ed6719157a90cdbf.js",
-      "static/css/1042d784bf4eeb0c.css",
-      "static/chunks/pages/contatos-61d2560520fc6e92.js"
+      "static/css/6d7e8b0809f44e99.css",
+      "static/chunks/pages/contatos-283afaba3682e015.js"
     ],
     "/lembra": [
       "static/chunks/webpack-8fa1640cc84ba8fe.js",

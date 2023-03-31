@@ -18,8 +18,8 @@ export default function Home() {
         </div>
 
         <div id={styles.corpo}>
-          <div id={styles.corpoDone}><Corpo /></div>
-          <div id={styles.formCorpo}><Formulario /></div>
+          <div><Corpo /></div>
+          
         </div>
         <div className={styles.separacao}></div>
 
